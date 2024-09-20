@@ -14,7 +14,7 @@ public class StudentService {
     private final StudentMapper studentMapper;
 
     public List<Student> findAll() {
-        return studentMapper.findAllStudent();
+        return studentMapper.findAllStudents();
     }
 
     public Student findById(Integer id) {
